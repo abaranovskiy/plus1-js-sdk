@@ -20,7 +20,7 @@ plus1-js-sdk
 ```html
     <script type="text/javascript">
     (function() {
-    var plus1SiteId = 8;
+    var plus1SiteId = _ВАШ_ИДЕНТИФИКАТОР_В_СИСТЕМЕ_PLUS1_;
 
     var c = document.createElement('script'); c.type = 'text/javascript'; c.async = true; c.src = 'http://ro.plus1.wapstart.ru/?area=getJsCode&id=' + plus1SiteId + '&encoding=1'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(c, s);
     })();
