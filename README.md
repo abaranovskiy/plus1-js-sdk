@@ -33,10 +33,10 @@ plus1-js-sdk
     var login = _ЛОГИН_ПОЛЬЗОВАТЕЛЯ_; 
     
     // Пожалуйста, согласуйте формат данных geoData с WapStart
-    var geoData = _ДАННЫЕ_О_МЕСТОПОЛОЖЕНИИ_
+    var geoData = _ДАННЫЕ_О_МЕСТОПОЛОЖЕНИИ_;
     
     
-    var c = document.createElement('script'); c.type = 'text/javascript'; c.async = true; c.src = 'http://ro.plus1.wapstart.ru/?area=getJsCode&id=' + plus1SiteId + '&age=' + age + '&sex=' + sex + '&login=' + login + '&geoData=' + geoData + '&encoding=1'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(c, s);
+    var c = document.createElement('script'); c.type = 'text/javascript'; c.async = true; c.src = 'http://ro.plus1.wapstart.ru/?area=getJsCode&id=' + plus1SiteId + '&age=' + age + '&sex=' + sex + '&login=' + login + '&location=' + geoData + '&encoding=1'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(c, s);
     })();
     </script>
 ```
